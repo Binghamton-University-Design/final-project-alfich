@@ -12,12 +12,17 @@ body {
 	background: var(--background-color);
 }
 
+#wrapper {
+  margin: 0 auto;
+  max-width: 1200px;
+}
 
+.text-holder {
+	height: 100vh;
+}
 
-
-
-
-
-
-
-
+.text-holder  {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
