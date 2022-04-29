@@ -1,0 +1,23 @@
+/*stylesheet*/
+
+/*vars*/
+:root {
+	--background-color:  #fff;
+	--body-color: #000;
+}
+
+body {
+	margin: 0;
+	color:  var(--body-color);
+	background: var(--background-color);
+}
+
+
+
+
+
+
+
+
+
+
