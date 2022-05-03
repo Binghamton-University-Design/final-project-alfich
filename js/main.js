@@ -4,7 +4,7 @@ $( document ).ready(function() {
   const elem = document.getElementById('pan-zoom')
   const panzoom = Panzoom(elem, {
     maxScale: 12,
-    zoomSpeed: 0.035,
+    duration: 400,
   })
   //panzoom.pan(10, 10)
   //panzoom.zoom(2, { animate: true })
@@ -68,7 +68,7 @@ $( document ).ready(function() {
             document.getElementById("item-8").classList.add('visible');
             panzoom.pan(-30, 48);
             panzoom.zoom(4, { animate: true });
-          }
+          } 
 
 
         }, 800);
