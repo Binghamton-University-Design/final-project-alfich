@@ -70,8 +70,8 @@ $( document ).ready(function() {
             panzoom.zoom(4, { animate: true });
           } else if (it_id == 9) {
             document.getElementById("item-9").classList.add('visible');
-            panzoom.pan(-50, 88);
-            panzoom.zoom(13, { animate: true });
+            panzoom.pan(-50, 87);
+            panzoom.zoom(15, { animate: true });
           } 
 
 
