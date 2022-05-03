@@ -4,6 +4,7 @@
 <html>
 	<head>
 		<!-- scripts -->
+		<script src="https://unpkg.com/@panzoom/panzoom@4.4.4/dist/panzoom.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 		<script src="js/main.js"></script>
 		<!-- styles -->
@@ -15,10 +16,11 @@
 		<meta name="description" content="This is my digital story project.">
 		<meta name="author" content="alison cheung">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!--  BOOKMARK ICON (replace the png, has to be a square) -->
-		<link rel="icon" type="image/png" href="images/a logo.png">
 		<!-- load google fonts -->
-		<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,300;1,700&display=swap" rel="stylesheet">
+
 		<title> Alison's NYC Subway Story </title> 
 	</head>
 
@@ -26,15 +28,75 @@
 		<div id="wrapper">
 			<div class="grid">
 				<div class="width-3-12-m width-3-12">
-					<div class="text-holder">
-						<div class="text-inner">
-							<p>I am Queens, Manhattan, the Bronx, a little Brooklyn, and slightly Staten Island.</p>
+
+					<div class="text-column">
+						
+						<div class="text-holder">
+							<div class="text-inner" id="text-1">
+								<p>I am Queens, Manhattan, the Bronx, a little Brooklyn, and slightly Staten Island.</p>
+							</div>
 						</div>
+						
+						<div class="text-holder">
+							<div class="text-inner" id="text-2">
+								<p>Born and raised in New York City, my very first home was a house in Elmhurst with my extended family. I ran around screaming and playing here for 2-3 years before my parents decided that it was time to make the move to the famous Manhattan.</p>
+							</div>
+						</div>
+
+						<div class="text-holder">
+							<div class="text-inner" id="text-3">
+								<p>In Manhattan, you could find me walking and exploring all of downtown. I lived by the South Street Seaport, but I was constantly on the move to get to school. Manhattan was where my career as a professional commuter began.</p>
+							</div>
+						</div>
+
+						<div class="text-holder">
+							<div class="text-inner" id="text-4">
+								<p>The first daily trips that I had to make were with my grandpa. Every weekday, he and I would walk hand in hand to a Pre-K in Chinatown. At first, he would bring a stroller to prepare to push me around in case I got tired, but over time I refused to be treated like a baby and made him ditch the stroller on our way out.</p>
+							</div>
+						</div>
+
+						<div class="text-holder">
+							<div class="text-inner" id="text-5">
+								<p>When I finally finished Pre-K, I began elementary school, shifting my commute entirely. I attended PS234 all the way on the other side of the island in Tribeca. At the time, there were no other public school options around the Financial District and Seaport Area, so many of the other students from this area would take the cheese bus with me. We waited everyday on Fulton Street by what used to be a Burger King with a Foot Locker downstairs. On cold, snowy days, there would be times when the bus didn’t make it to our stop and we would all hustle into shared taxis or the back of a parent’s car to rush over, hoping we’d still make it on time. Elementary school was thrilling because I learned to travel alone and together at the same time. This was my first introduction to NYC commute culture – and, frankly, I loved it.</p>
+							</div>
+						</div>
+
+						<div class="text-holder">
+							<div class="text-inner" id="text-6">
+								<p>In the fourth grade, my parents sat my sister and I down with some life changing news: “Carmen, Alison, we’re moving to Queens!”</p>
+								<p>This news didn’t phase me because I thought it would be cool to be somewhere different. With the anticipation of such a large imminent change, my sister, Carmen, made sure that my parents would promise that we wouldn't switch schools if we moved. This led to my first real NYC commute experience.</p>
+							</div>
+						</div>
+
+						<div class="text-holder">
+							<div class="text-inner" id="text-7">
+								<p>Our move brought us back to our Elmhurst roots – three blocks from where it all began for me. Back in Elmhurst, my family lived on the 2nd floor of a house by the dead end of a street. At this house, I began to commute by myself.</p>
+							</div>
+						</div>
+
+						<div class="text-holder">
+							<div class="text-inner" id="text-8">
+								<p>Every morning, I would walk to the Grand Avenue station, slide my orange elementary school Metrocard, and ride the R straight down to the City Hall station in Manhattan. One day, on the ride home with my dad, I let my guard down and fell asleep. Deep in my dreams, I found myself falling forward and hitting my head hard on the dirty R train floor.</p>
+							</div>
+						</div>
+
 					</div>
+
 				</div>
 				
-				<div class="width-9-12-m width-9-12">
-					<div id="map-holder">
+				<div class="width-9-12-m width-9-12 zoom-holder">
+					<div id="pan-zoom">
+						<div id="map-holder">
+								<img src="images/general-map.svg" />
+								<img id="labels" src="images/borough-labels.svg" />
+								<img id="item-2" class="item-img" src="images/2-elmhurst.svg" />
+								<img id="item-3" class="item-img" src="images/3-264-water.svg" />
+								<img id="item-4" class="item-img" src="images/4-chinatown.svg" />
+								<img id="item-5" class="item-img" src="images/5-ps234.svg" />
+								<img id="item-6" class="item-img" src="images/6-queens-announcement-01.svg" />
+								<img id="item-7" class="item-img" src="images/7-dead-end-01.svg" />
+								<img id="item-8" class="item-img" src="images/8-8409-commute-01.svg" />
+						</div>
 					</div>
 				</div>
 			</div>
