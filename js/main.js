@@ -43,7 +43,7 @@ $( document ).ready(function() {
           } else if (it_id == 2) {
             document.getElementById("item-2").classList.add('visible');
             panzoom.pan(-120, 60);
-            panzoom.zoom(11, { animate: true });
+            panzoom.zoom(10, { animate: true });
           } else if (it_id == 3) {
             document.getElementById("item-3").classList.add('visible');
             panzoom.pan(20, 0);
