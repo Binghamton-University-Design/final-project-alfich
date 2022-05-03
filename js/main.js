@@ -71,7 +71,7 @@ $( document ).ready(function() {
           } else if (it_id == 9) {
             document.getElementById("item-9").classList.add('visible');
             panzoom.pan(-50, 87);
-            panzoom.zoom(15, { animate: true });
+            panzoom.zoom(18, { animate: true });
           } 
 
 
