@@ -70,7 +70,7 @@ $( document ).ready(function() {
             panzoom.zoom(4, { animate: true });
           } else if (it_id == 9) {
             document.getElementById("item-9").classList.add('visible');
-            panzoom.pan(-10, 70);
+            panzoom.pan(10, 70);
             panzoom.zoom(12, { animate: true });
           } 
 
