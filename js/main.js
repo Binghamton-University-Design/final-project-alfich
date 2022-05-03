@@ -72,6 +72,10 @@ $( document ).ready(function() {
             document.getElementById("item-9").classList.add('visible');
             panzoom.pan(-50, 87);
             panzoom.zoom(18, { animate: true });
+          } else if (it_id == 10) {
+            document.getElementById("item-10").classList.add('visible');
+            panzoom.pan(-50, 87);
+            panzoom.zoom(18, { animate: true });
           } 
 
 
