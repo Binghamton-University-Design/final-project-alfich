@@ -7,7 +7,7 @@
 }
 
 .grid div {
-  background-color:rgba(0,0,0,0.04);
+  /*background-color:rgba(0,0,0,0.04);*/
 }
 
 /* H E I G H T */
@@ -75,7 +75,7 @@
 @media (min-width: 700px) {
 
   .grid {
-    grid-gap: 2rem;
+    grid-gap: 1rem;
   }
 
   .width-1-12 {
