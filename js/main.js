@@ -100,6 +100,14 @@ $( document ).ready(function() {
             document.getElementById("item-16").classList.add('visible');
             panzoom.pan(-100, 48);
             panzoom.zoom(3, { animate: true });
+          } else if (it_id == 17) {
+            document.getElementById("item-17").classList.add('visible');
+            panzoom.pan(-100, 48);
+            panzoom.zoom(3, { animate: true });
+          } else if (it_id == 18) {
+            document.getElementById("item-18").classList.add('visible');
+            panzoom.pan(-100, 48);
+            panzoom.zoom(3, { animate: true });
 
           } 
 
