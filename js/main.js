@@ -96,7 +96,7 @@ $( document ).ready(function() {
             document.getElementById("item-15").classList.add('visible');
             panzoom.pan(-85, 48);
             panzoom.zoom(3, { animate: true });
-          } else if (it_id == 15) {
+          } else if (it_id == 16) {
             document.getElementById("item-16").classList.add('visible');
             panzoom.pan(-100, 48);
             panzoom.zoom(3, { animate: true });
