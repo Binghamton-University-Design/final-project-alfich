@@ -86,11 +86,11 @@ $( document ).ready(function() {
             panzoom.zoom(8, { animate: true });
           } else if (it_id == 13) {
             document.getElementById("item-13").classList.add('visible');
-            panzoom.pan(-55, 48);
+            panzoom.pan(-65, 48);
             panzoom.zoom(3, { animate: true });
           } else if (it_id == 14) {
             document.getElementById("item-14").classList.add('visible');
-            panzoom.pan(-55, 48);
+            panzoom.pan(-65, 48);
             panzoom.zoom(3, { animate: true });
           } 
 
