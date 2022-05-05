@@ -76,6 +76,14 @@ $( document ).ready(function() {
             document.getElementById("item-10").classList.add('visible');
             panzoom.pan(-50, 87);
             panzoom.zoom(18, { animate: true });
+          } else if (it_id == 11) {
+            document.getElementById("item-11").classList.add('visible');
+            panzoom.pan(-30, 48);
+            panzoom.zoom(4, { animate: true });
+          } else if (it_id == 12) {
+            document.getElementById("item-12").classList.add('visible');
+            panzoom.pan(-120, 60);
+            panzoom.zoom(4, { animate: true });
           } 
 
 
