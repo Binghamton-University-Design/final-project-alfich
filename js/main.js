@@ -88,7 +88,12 @@ $( document ).ready(function() {
             document.getElementById("item-13").classList.add('visible');
             panzoom.pan(-30, 48);
             panzoom.zoom(3, { animate: true });
+          } else if (it_id == 14) {
+            document.getElementById("item-14").classList.add('visible');
+            panzoom.pan(-30, 48);
+            panzoom.zoom(3, { animate: true });
           } 
+
 
 
         }, 800);
