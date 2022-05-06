@@ -16,7 +16,7 @@ body {
 #wrapper {
   margin: 0 auto;
   padding: 2em;
-  max-width: 1200px;
+  max-width: 1400px;
 }
 
 .text-column {
@@ -34,6 +34,10 @@ body {
 
 p {
 	margin-bottom: 1em;
+}
+
+em {
+	font-style: italic;
 }
 
 p:last-child {

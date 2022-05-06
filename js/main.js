@@ -5,6 +5,7 @@ $( document ).ready(function() {
   const panzoom = Panzoom(elem, {
     maxScale: 12,
     duration: 400,
+    cursor: 'hand'
   })
   //panzoom.pan(10, 10)
   //panzoom.zoom(2, { animate: true })
@@ -42,7 +43,7 @@ $( document ).ready(function() {
             panzoom.zoom(1, { animate: true });
           } else if (it_id == 2) {
             document.getElementById("item-2").classList.add('visible');
-            panzoom.pan(-120, 60);
+            panzoom.pan(-135, 60);
             panzoom.zoom(10, { animate: true });
           } else if (it_id == 3) {
             document.getElementById("item-3").classList.add('visible');
