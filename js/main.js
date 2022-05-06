@@ -43,7 +43,7 @@ $( document ).ready(function() {
           } else if (it_id == 2) {
             document.getElementById("item-2").classList.add('visible');
             panzoom.pan(-120, 60);
-            panzoom.zoom(11, { animate: true });
+            panzoom.zoom(10, { animate: true });
           } else if (it_id == 3) {
             document.getElementById("item-3").classList.add('visible');
             panzoom.pan(20, 0);
@@ -68,7 +68,61 @@ $( document ).ready(function() {
             document.getElementById("item-8").classList.add('visible');
             panzoom.pan(-30, 48);
             panzoom.zoom(4, { animate: true });
+          } else if (it_id == 9) {
+            document.getElementById("item-9").classList.add('visible');
+            panzoom.pan(-50, 87);
+            panzoom.zoom(18, { animate: true });
+          } else if (it_id == 10) {
+            document.getElementById("item-10").classList.add('visible');
+            panzoom.pan(-50, 87);
+            panzoom.zoom(18, { animate: true });
+          } else if (it_id == 11) {
+            document.getElementById("item-11").classList.add('visible');
+            panzoom.pan(-30, 48);
+            panzoom.zoom(4, { animate: true });
+          } else if (it_id == 12) {
+            document.getElementById("item-12").classList.add('visible');
+            panzoom.pan(-110, 32);
+            panzoom.zoom(8, { animate: true });
+          } else if (it_id == 13) {
+            document.getElementById("item-13").classList.add('visible');
+            panzoom.pan(-85, 48);
+            panzoom.zoom(3, { animate: true });
+          } else if (it_id == 14) {
+            document.getElementById("item-14").classList.add('visible');
+            panzoom.pan(-85, 48);
+            panzoom.zoom(3, { animate: true });
+          } else if (it_id == 15) {
+            document.getElementById("item-15").classList.add('visible');
+            panzoom.pan(-85, 48);
+            panzoom.zoom(3, { animate: true });
+          } else if (it_id == 16) {
+            document.getElementById("item-16").classList.add('visible');
+            panzoom.pan(-100, 48);
+            panzoom.zoom(3, { animate: true });
+          } else if (it_id == 17) {
+            document.getElementById("item-17").classList.add('visible');
+            panzoom.pan(-100, 48);
+            panzoom.zoom(3, { animate: true });
+          } else if (it_id == 18) {
+            document.getElementById("item-18").classList.add('visible');
+            panzoom.pan(-100, 48);
+            panzoom.zoom(3, { animate: true });
+          } else if (it_id == 19) {
+            document.getElementById("item-19").classList.add('visible');
+            panzoom.pan(0,0);
+            panzoom.zoom(1, { animate: true });
+          } else if (it_id == 20) {
+            document.getElementById("item-20").classList.add('visible');
+            panzoom.pan(0,0);
+            panzoom.zoom(1, { animate: true });
+          } else if (it_id == 21) {
+            document.getElementById("item-21").classList.add('visible');
+            panzoom.pan(-100, 130);
+            panzoom.zoom(2, { animate: true });
+
           } 
+
 
 
         }, 800);
