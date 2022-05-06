@@ -114,6 +114,10 @@ $( document ).ready(function() {
             panzoom.zoom(1, { animate: true });
           } else if (it_id == 20) {
             document.getElementById("item-20").classList.add('visible');
+            panzoom.pan(0,-20);
+            panzoom.zoom(2, { animate: true });
+          } else if (it_id == 21) {
+            document.getElementById("item-21").classList.add('visible');
             panzoom.pan(0,0);
             panzoom.zoom(1, { animate: true });
 
